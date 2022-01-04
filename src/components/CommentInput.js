@@ -9,7 +9,7 @@ const CommentInput = () => {
 
   const {id} = useParams();
 
-  const {data: story, isPending, error, fetchData} = useFetch(`http://localhost:8000/${id}`)
+  const {data: story, isPending, error, fetchData} = useFetch(`https://hidden-web.herokuapp.com/${id}`)
   
     const [disabled, setDisabled] = useState(true)
     const [newComment, setNewComment] = useState('')
@@ -30,7 +30,7 @@ const CommentInput = () => {
        const newCommentObject = {newComment}
        console.log(newCommentObject);
 
-        fetch(`/${id}`, {
+        fetch(`https://hidden-web.herokuapp.com/${id}`, {
             method: 'PATCH',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(newCommentObject)

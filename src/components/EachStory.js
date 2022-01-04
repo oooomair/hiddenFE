@@ -8,7 +8,7 @@ const EachStory = () => {
 
     const {id} = useParams();
 
-    const {data, isPending, error} = useFetch(`/${id}`)
+    const {data, isPending, error} = useFetch(`https://hidden-web.herokuapp.com/${id}`)
 
     return (
         <div className="each-story">

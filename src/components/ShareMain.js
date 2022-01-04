@@ -59,7 +59,7 @@ const ShareMain = () => {
         
         const newStory = { title, story, comments, isComments };
 
-        fetch('/', {
+        fetch('https://hidden-web.herokuapp.com/', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(newStory)
