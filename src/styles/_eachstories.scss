@@ -115,6 +115,9 @@
       font-size: 1.4rem;
     }
   }
+  .comments {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -140,6 +143,9 @@
       margin-right: 0;
       font-size: 1.2rem;
     }
+  }
+  .comments {
+    font-size: 0.9rem;
   }
 }
 
@@ -168,7 +174,7 @@
       font-size: 2rem;
     }
     p {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     h2 {
       font-size: 1.7rem;
@@ -184,5 +190,8 @@
       font-size: 1.1rem;
       padding: 5px 12px;
     }
+  }
+  .comments {
+    font-size: 0.8rem;
   }
 }

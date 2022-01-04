@@ -1669,6 +1669,9 @@ body {
     margin-right: 10px;
     font-size: 1.4rem;
   }
+  .comments {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1692,6 +1695,9 @@ body {
   .comment-input button {
     margin-right: 0;
     font-size: 1.2rem;
+  }
+  .comments {
+    font-size: 0.9rem;
   }
 }
 
@@ -1721,7 +1727,7 @@ body {
     font-size: 2rem;
   }
   .each-story p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .each-story h2 {
     font-size: 1.7rem;
@@ -1734,6 +1740,9 @@ body {
     margin-right: 0;
     font-size: 1.1rem;
     padding: 5px 12px;
+  }
+  .comments {
+    font-size: 0.8rem;
   }
 }
 
