@@ -960,6 +960,12 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .home__main span::after {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .home__stuff {
     width: 500px;
@@ -1455,12 +1461,15 @@ body {
   font-size: 1.3rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .stories {
     width: 600px;
   }
   .stories__main {
     margin-top: 20px;
+  }
+  .stories__story h2:after {
+    display: none;
   }
 }
 
@@ -1743,6 +1752,12 @@ body {
   }
   .comments {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar li::after {
+    display: none;
   }
 }
 

@@ -377,6 +377,16 @@ input:focus {
 
 @import "eachstories";
 
+@media screen and (max-width: 800px) {
+  .navbar {
+    li {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 630px) {
   .navbar {
     padding: 10px 10px;

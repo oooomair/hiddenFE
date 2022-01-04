@@ -302,6 +302,16 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .home__main {
+    span {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 700px) {
   .home__stuff {
     width: 500px;
